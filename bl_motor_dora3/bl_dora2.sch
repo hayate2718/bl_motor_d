@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -396,18 +396,6 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <wire x1="7.4" y1="5.75" x2="7.4" y2="0" width="0.127" layer="21"/>
 <wire x1="7.4" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
 </package>
-<package name="1608REG">
-<description>1608サイズのチップ抵抗　多分ガッコのリールチップ抵抗はこのサイズ</description>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<text x="-1.27" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.27" y="0.762" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
 <package name="ES3BB13F" urn="urn:adsk.eagle:footprint:43181/1" locally_modified="yes">
 <description>&lt;B&gt;DIODE&lt;/B&gt;</description>
 <wire x1="-2.2606" y1="1.905" x2="2.2606" y2="1.905" width="0.1016" layer="21"/>
@@ -702,16 +690,6 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <wire x1="-2.54" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="95"/>
 <wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="95"/>
 <wire x1="10.16" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="95"/>
-</symbol>
-<symbol name="1608REG">
-<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 <symbol name="ES3BB13F">
 <wire x1="-0.762" y1="1.016" x2="0" y2="-1.016" width="0.254" layer="94"/>
@@ -1028,23 +1006,6 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="1608REG" prefix="R" uservalue="yes">
-<description>1608パッケージのチップ抵抗　ガッコのリールの抵抗はたぶんこれ</description>
-<gates>
-<gate name="G$1" symbol="1608REG" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1608REG">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -17809,8 +17770,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2" value="5n"/>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2" value="5n"/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2" value="5n"/>
-<part name="R33" library="user" deviceset="1608REG" device="" value="0"/>
-<part name="R34" library="user" deviceset="1608REG" device="" value="0"/>
 <part name="U$20" library="user" deviceset="ES3BB13F" device=""/>
 <part name="U$21" library="user" deviceset="ES3BB13F" device=""/>
 <part name="U$22" library="user" deviceset="ES3BB13F" device=""/>
@@ -18167,14 +18126,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <attribute name="NAME" x="367.284" y="117.221" size="1.778" layer="95"/>
 <attribute name="VALUE" x="367.284" y="112.141" size="1.778" layer="96"/>
 </instance>
-<instance part="R33" gate="G$1" x="10.16" y="27.94" smashed="yes">
-<attribute name="NAME" x="1.27" y="29.4386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="6.35" y="24.638" size="1.778" layer="96"/>
-</instance>
-<instance part="R34" gate="G$1" x="10.16" y="22.86" smashed="yes">
-<attribute name="NAME" x="1.27" y="24.3586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="6.35" y="19.558" size="1.778" layer="96"/>
-</instance>
 <instance part="U$20" gate="G$1" x="330.2" y="116.84" smashed="yes">
 <attribute name="NAME" x="328.8284" y="114.3" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="333.4004" y="114.3" size="1.778" layer="96" rot="R90"/>
@@ -18248,8 +18199,11 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="-7.62" y="20.32"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <junction x="2.54" y="20.32"/>
-<pinref part="R34" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="20.32" x2="5.08" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="22.86" x2="17.78" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="PIN21_CSN"/>
+<wire x1="17.78" y1="27.94" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="22.86" x2="5.08" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
@@ -19166,24 +19120,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="388.62" y="71.12"/>
 </segment>
 </net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="R33" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="27.94" x2="15.24" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="PIN22_CSP"/>
-<wire x1="15.24" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="25.4" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="R34" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="22.86" x2="17.78" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="22.86" x2="17.78" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="PIN21_CSN"/>
-<wire x1="17.78" y1="27.94" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$44" class="0">
 <segment>
 <pinref part="U$17" gate="G$1" pin="A2"/>
@@ -19342,7 +19278,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="414.02" y1="48.26" x2="416.56" y2="45.72" width="0.1524" layer="91"/>
 <junction x="416.56" y="45.72"/>
-<pinref part="R33" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="30.48" x2="5.08" y2="27.94" width="0.1524" layer="91"/>
 <junction x="2.54" y="30.48"/>
 <wire x1="434.34" y1="53.34" x2="429.26" y2="53.34" width="0.1524" layer="91"/>
@@ -19367,6 +19302,11 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="447.04" y1="76.2" x2="447.04" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="447.04" y1="45.72" x2="429.26" y2="45.72" width="0.1524" layer="91"/>
 <junction x="429.26" y="45.72"/>
+<wire x1="15.24" y1="27.94" x2="15.24" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="PIN22_CSP"/>
+<wire x1="15.24" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="25.4" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="27.94" x2="15.24" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$42" class="0">

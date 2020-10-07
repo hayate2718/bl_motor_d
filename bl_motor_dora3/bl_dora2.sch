@@ -17776,12 +17776,12 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="U$26" library="user" deviceset="ES3BB13F" device=""/>
 <part name="U$27" library="user" deviceset="ES3BB13F" device=""/>
 <part name="U$28" library="user" deviceset="ES3BB13F" device=""/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="47"/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="47"/>
-<part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="47"/>
-<part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="47"/>
-<part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="47"/>
-<part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="47"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="22"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="22"/>
+<part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="22"/>
+<part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="22"/>
+<part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="22"/>
+<part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="22"/>
 </parts>
 <sheets>
 <sheet>
@@ -17795,11 +17795,11 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <text x="91.44" y="50.8" size="1.778" layer="91">X7Rなどの特性のよいものをつかうこと</text>
 <text x="91.44" y="137.16" size="1.778" layer="91">fetを変えた場合はそのfetのゲート容量によってブートストラップコンデンサを変えること</text>
 <text x="393.7" y="200.66" size="1.778" layer="91">rs品番843-2168の820uFのコンデンサ</text>
-<text x="396.24" y="27.94" size="1.778" layer="91">F_C*のコンデンサは0.1uFのフィルムコンデンサ</text>
+<text x="396.24" y="27.94" size="1.778" layer="91">F_C*のコンデンサは0.33uFのフィルムコンデンサ</text>
 <text x="396.24" y="22.86" size="1.778" layer="91">fetにSQD50034ELを使う。同じto252</text>
 <text x="38.1" y="33.02" size="1.778" layer="91">電流制限は30Aに設定されている。refの抵抗比を変えることで変更可</text>
 <text x="40.64" y="17.78" size="1.778" layer="91">fetのドレインソース間がオン時に1Vを超えたら短絡とみなされる</text>
-<text x="396.24" y="17.78" size="1.778" layer="91">47Ωの抵抗器は1206の0.66W。rs品番721-9715</text>
+<text x="396.24" y="17.78" size="1.778" layer="91">22Ωの抵抗器は1206の0.66W。rs品番721-9680</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="76.2" y="86.36" smashed="yes"/>
@@ -17857,16 +17857,16 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <attribute name="NAME" x="-34.5186" y="34.29" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-29.718" y="34.29" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R9" gate="G$1" x="-22.86" y="12.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="-24.3586" y="8.89" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-19.558" y="8.89" size="1.778" layer="96" rot="R90"/>
+<instance part="R9" gate="G$1" x="-25.4" y="12.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="-26.8986" y="8.89" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-22.098" y="8.89" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R10" gate="G$1" x="-22.86" y="22.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="-24.3586" y="19.05" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-19.558" y="19.05" size="1.778" layer="96" rot="R90"/>
+<instance part="R10" gate="G$1" x="-25.4" y="22.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="-26.8986" y="19.05" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-22.098" y="19.05" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="AGND7" gate="VR1" x="-22.86" y="5.08" smashed="yes">
-<attribute name="VALUE" x="-25.4" y="0" size="1.778" layer="96" rot="R90"/>
+<instance part="AGND7" gate="VR1" x="-25.4" y="5.08" smashed="yes">
+<attribute name="VALUE" x="-27.94" y="0" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R11" gate="G$1" x="2.54" y="25.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="1.0414" y="21.59" size="1.778" layer="95" rot="R90"/>
@@ -18282,8 +18282,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </segment>
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="-22.86" y1="27.94" x2="-25.4" y2="27.94" width="0.1524" layer="91"/>
-<label x="-25.4" y="27.94" size="1.778" layer="95"/>
+<wire x1="-25.4" y1="27.94" x2="-27.94" y2="27.94" width="0.1524" layer="91"/>
+<label x="-27.94" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="-139.7" y1="0" x2="-127" y2="0" width="0.1524" layer="91"/>
@@ -18702,10 +18702,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <net name="N$6" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PIN23_VDSTH"/>
-<wire x1="20.32" y1="17.78" x2="-22.86" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="17.78" x2="-25.4" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<junction x="-22.86" y="17.78"/>
+<junction x="-25.4" y="17.78"/>
 </segment>
 </net>
 <net name="N$12" class="0">

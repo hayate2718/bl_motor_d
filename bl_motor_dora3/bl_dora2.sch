@@ -269,18 +269,6 @@ TO252パッケージ</description>
 <wire x1="0" y1="0" x2="0" y2="-0.5" width="0.127" layer="21"/>
 <wire x1="2" y1="0" x2="2" y2="-0.5" width="0.127" layer="21"/>
 </package>
-<package name="ZH_6P">
-<wire x1="0" y1="2.2" x2="10.5" y2="2.2" width="0.127" layer="21"/>
-<wire x1="0" y1="-1.3" x2="10.5" y2="-1.3" width="0.127" layer="21"/>
-<pad name="PIN1" x="1.5" y="0" drill="0.75" shape="square"/>
-<pad name="PIN2" x="3" y="0" drill="0.75" shape="square"/>
-<pad name="PIN3" x="4.5" y="0" drill="0.75" shape="square"/>
-<pad name="PIN4" x="6" y="0" drill="0.75" shape="square"/>
-<pad name="PIN5" x="7.5" y="0" drill="0.75" shape="square"/>
-<wire x1="0" y1="2.2" x2="0" y2="-1.3" width="0.127" layer="21"/>
-<wire x1="10.5" y1="2.2" x2="10.5" y2="-1.3" width="0.127" layer="21"/>
-<pad name="PIN6" x="9" y="0" drill="0.75" shape="square"/>
-</package>
 <package name="XT60">
 <wire x1="0" y1="0" x2="15.5" y2="0" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="0" y2="8.1" width="0.127" layer="21"/>
@@ -412,6 +400,18 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <rectangle x1="-2.794" y1="-1.0922" x2="-2.2606" y2="1.0922" layer="51"/>
 <rectangle x1="2.2606" y1="-1.0922" x2="2.794" y2="1.0922" layer="51"/>
 <rectangle x1="-1.35" y1="-1.9" x2="-0.8" y2="1.9" layer="51"/>
+</package>
+<package name="ZH_6P_L">
+<wire x1="0" y1="4.6" x2="10.5" y2="4.6" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.4" x2="10.5" y2="-1.4" width="0.127" layer="21"/>
+<pad name="PIN1" x="1.5" y="0" drill="0.75" shape="square"/>
+<pad name="PIN2" x="3" y="0" drill="0.75" shape="square"/>
+<pad name="PIN3" x="4.5" y="0" drill="0.75" shape="square"/>
+<pad name="PIN4" x="6" y="0" drill="0.75" shape="square"/>
+<pad name="PIN5" x="7.5" y="0" drill="0.75" shape="square"/>
+<wire x1="0" y1="4.6" x2="0" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="10.5" y1="4.6" x2="10.5" y2="-1.4" width="0.127" layer="21"/>
+<pad name="PIN6" x="9" y="0" drill="0.75" shape="square"/>
 </package>
 </packages>
 <symbols>
@@ -572,18 +572,6 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="0" width="0.254" layer="94"/>
 <text x="12.7" y="7.62" size="2.54" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="ZH_6P">
-<pin name="PIN1" x="-12.7" y="5.08" length="middle" rot="R270"/>
-<pin name="PIN2" x="-7.62" y="5.08" length="middle" rot="R270"/>
-<pin name="PIN3" x="-2.54" y="5.08" length="middle" rot="R270"/>
-<pin name="PIN4" x="2.54" y="5.08" length="middle" rot="R270"/>
-<wire x1="-15.24" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="2.54" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-2.54" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-2.54" x2="-15.24" y2="2.54" width="0.254" layer="94"/>
-<pin name="PIN5" x="7.62" y="5.08" length="middle" rot="R270"/>
-<pin name="PIN6" x="12.7" y="5.08" length="middle" rot="R270"/>
-</symbol>
 <symbol name="XT60">
 <pin name="P$1" x="-2.54" y="5.08" length="middle" rot="R270"/>
 <pin name="P$2" x="2.54" y="5.08" length="middle" rot="R270"/>
@@ -703,6 +691,18 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <text x="3.2004" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="A" x="0" y="2.54" visible="pad" length="point" direction="pas" rot="R270"/>
 <pin name="C" x="0" y="-2.54" visible="pad" length="point" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="ZH_6P_L">
+<pin name="PIN1" x="-12.7" y="5.08" length="middle" rot="R270"/>
+<pin name="PIN2" x="-7.62" y="5.08" length="middle" rot="R270"/>
+<pin name="PIN3" x="-2.54" y="5.08" length="middle" rot="R270"/>
+<pin name="PIN4" x="2.54" y="5.08" length="middle" rot="R270"/>
+<wire x1="-15.24" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="-15.24" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-2.54" x2="-15.24" y2="2.54" width="0.254" layer="94"/>
+<pin name="PIN5" x="7.62" y="5.08" length="middle" rot="R270"/>
+<pin name="PIN6" x="12.7" y="5.08" length="middle" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -862,26 +862,6 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ZH_6P">
-<gates>
-<gate name="G$1" symbol="ZH_6P" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="ZH_6P">
-<connects>
-<connect gate="G$1" pin="PIN1" pad="PIN1"/>
-<connect gate="G$1" pin="PIN2" pad="PIN2"/>
-<connect gate="G$1" pin="PIN3" pad="PIN3"/>
-<connect gate="G$1" pin="PIN4" pad="PIN4"/>
-<connect gate="G$1" pin="PIN5" pad="PIN5"/>
-<connect gate="G$1" pin="PIN6" pad="PIN6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="XT60">
 <gates>
 <gate name="G$1" symbol="XT60" x="0" y="2.54"/>
@@ -1023,6 +1003,26 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZH_6P_L">
+<gates>
+<gate name="G$1" symbol="ZH_6P_L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ZH_6P_L">
+<connects>
+<connect gate="G$1" pin="PIN1" pad="PIN1"/>
+<connect gate="G$1" pin="PIN2" pad="PIN2"/>
+<connect gate="G$1" pin="PIN3" pad="PIN3"/>
+<connect gate="G$1" pin="PIN4" pad="PIN4"/>
+<connect gate="G$1" pin="PIN5" pad="PIN5"/>
+<connect gate="G$1" pin="PIN6" pad="PIN6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -17684,9 +17684,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="10k"/>
 <part name="AGND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="39k"/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="10k"/>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="47k"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="22k"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="3.3k"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="20k"/>
 <part name="AGND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="20m"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="20m"/>
@@ -17735,7 +17735,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$2" library="user" deviceset="2SC5964" device=""/>
 <part name="U$5" library="user" deviceset="1005X4RESISTOR" device="" value="10K"/>
-<part name="U$23" library="user" deviceset="ZH_6P" device=""/>
 <part name="AGND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -17747,7 +17746,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
 <part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-1012" package3d_urn="urn:adsk.eagle:package:23404/2" value="820u"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="22k"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M2012" package3d_urn="urn:adsk.eagle:package:23561/2" value="39k"/>
 <part name="U$4" library="user" deviceset="RGB_LED" device=""/>
 <part name="AGND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="R_I1" library="user" deviceset="0603X4RESISTOR" device="" value="1k"/>
@@ -17782,6 +17781,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="22"/>
 <part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="22"/>
 <part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="22"/>
+<part name="U$23" library="user" deviceset="ZH_6P_L" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18026,7 +18026,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="U$5" gate="G$1" x="-48.26" y="76.2" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-73.66" y="76.2" size="2.54" layer="96" rot="R180"/>
 </instance>
-<instance part="U$23" gate="G$1" x="-144.78" y="40.64" smashed="yes" rot="R270"/>
 <instance part="AGND16" gate="VR1" x="-129.54" y="22.86" smashed="yes">
 <attribute name="VALUE" x="-132.08" y="17.78" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -18174,6 +18173,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <attribute name="NAME" x="336.3214" y="113.03" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="341.122" y="113.03" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="U$23" gate="G$1" x="-144.78" y="40.64" smashed="yes" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -18271,9 +18271,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <label x="200.66" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$23" gate="G$1" pin="PIN1"/>
 <wire x1="-139.7" y1="53.34" x2="-129.54" y2="53.34" width="0.1524" layer="91"/>
 <label x="-129.54" y="53.34" size="1.778" layer="95"/>
+<pinref part="U$23" gate="G$1" pin="PIN1"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
@@ -18502,10 +18502,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <junction x="-91.44" y="60.96"/>
 </segment>
 <segment>
-<pinref part="U$23" gate="G$1" pin="PIN6"/>
 <wire x1="-139.7" y1="27.94" x2="-129.54" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="27.94" x2="-129.54" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="AGND16" gate="VR1" pin="AGND"/>
+<pinref part="U$23" gate="G$1" pin="PIN6"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="PAD"/>
@@ -18582,9 +18582,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <label x="10.16" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$23" gate="G$1" pin="PIN3"/>
 <wire x1="-139.7" y1="43.18" x2="-129.54" y2="43.18" width="0.1524" layer="91"/>
 <label x="-129.54" y="43.18" size="1.778" layer="95"/>
+<pinref part="U$23" gate="G$1" pin="PIN3"/>
 </segment>
 </net>
 <net name="H2" class="0">
@@ -18594,9 +18594,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <label x="10.16" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$23" gate="G$1" pin="PIN4"/>
 <wire x1="-139.7" y1="38.1" x2="-129.54" y2="38.1" width="0.1524" layer="91"/>
 <label x="-129.54" y="38.1" size="1.778" layer="95"/>
+<pinref part="U$23" gate="G$1" pin="PIN4"/>
 </segment>
 </net>
 <net name="H3" class="0">
@@ -18606,9 +18606,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <label x="10.16" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$23" gate="G$1" pin="PIN5"/>
 <wire x1="-139.7" y1="33.02" x2="-129.54" y2="33.02" width="0.1524" layer="91"/>
 <label x="-129.54" y="33.02" size="1.778" layer="95"/>
+<pinref part="U$23" gate="G$1" pin="PIN5"/>
 </segment>
 </net>
 <net name="TACHO" class="0">

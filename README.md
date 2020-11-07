@@ -9,7 +9,7 @@
 <div align = "center">
 <img src = "https://latex.codecogs.com/gif.latex?\frac{5&space;\times&space;R1}{R1&plus;R2}&space;=&space;19&space;\times&space;R_{shunt}&space;\times&space;I_{max}">
 </div><br>
-4. ピンヘッダをショートすることで動作モードの切り替えが可能<br>
+4. ピンヘッダをショートすることで動作モードの切り替えが可能
 jp1がfフラグを無視（オープンループでリミットを完全に外す場合）、jp2が高速減衰モードにできる(動くときと動かんときがある)<br>
 5. untitl.txtファイルは読んでください<br>
 <b>一枚の値段がいくらになるのか考えたくもない...</b>
